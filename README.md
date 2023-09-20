@@ -80,6 +80,28 @@ git commit -m "Description de vos modifications"
 git push origin main
 ```
 
+## Structure du Projet
+
+- **Assets** (Répertoire des Ressources) : Ce répertoire est destiné à stocker toutes les ressources, telles que des images, des fichiers audio, des vidéos ou d'autres éléments multimédias, qui sont utilisées dans votre projet. Vous pouvez organiser ces ressources en sous-répertoires si nécessaire.
+
+- **Code** (Répertoire du Code) : Ce répertoire est l'endroit où vous placerez tout le code source de votre projet. C'est là que vous créerez et stockerez les fichiers source de votre application, qu'il s'agisse de fichiers de programmation, de scripts ou de tout autre type de code. Vous pouvez organiser le code en sous-répertoires par module ou fonctionnalité.
+
+- **Config** (Répertoire de Configuration) : Ce répertoire est utilisé pour stocker les fichiers de configuration de votre projet. Cela peut inclure des fichiers de configuration pour des bibliothèques tierces, des paramètres de l'application ou d'autres configurations importantes.
+
+- **Database** (Répertoire de la Base de Données) : Si votre projet utilise une base de données, vous pouvez placer ici les fichiers de base de données, les scripts de migration, ou d'autres fichiers associés à la gestion des données.
+
+- **Documentation** (Répertoire de Documentation) : Ce répertoire est destiné à stocker toute la documentation de votre projet. Cela peut inclure des fichiers texte, des fichiers Markdown, ou même des fichiers PDF décrivant comment utiliser, configurer ou développer votre projet. Assurez-vous d'inclure une documentation claire pour aider les utilisateurs et les développeurs.
+
+- **Tests** (Répertoire de Tests) : Si vous implémentez des tests unitaires, des tests d'intégration ou d'autres types de tests dans votre projet, vous pouvez les stocker dans ce répertoire. Organisez les tests en fonction de leur type ou de la partie du code qu'ils testent.
+
+- **.gitignore** (Fichier Git Ignore) : Ce fichier spécifie quels fichiers et répertoires doivent être ignorés par Git lors de la gestion du code source. Il est essentiel pour exclure les fichiers générés, les fichiers sensibles ou les dépendances externes du suivi de version Git.
+
+- **LICENSE** (Fichier de Licence) : Ce fichier contient les conditions de licence de votre projet. Il indique aux utilisateurs sous quelles conditions ils peuvent utiliser, modifier ou distribuer votre logiciel. Choisissez une licence appropriée pour votre projet.
+
+- **changelog.md** (Fichier de Journal des Modifications) : Ce fichier est utilisé pour enregistrer les modifications apportées à votre projet au fil du temps. Il peut inclure des notes sur les nouvelles fonctionnalités, les corrections de bugs, les améliorations et d'autres modifications importantes. Cela aide les utilisateurs et les développeurs à suivre l'évolution du projet.
+
+Vous pouvez personnaliser davantage cette structure en fonction des besoins spécifiques de votre projet.
+
 ## Contribution
 
 Si vous souhaitez contribuer à l'amélioration de ce modèle de projet, n'hésitez pas à soumettre des pull requests. Vos contributions sont les bienvenues !
